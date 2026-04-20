@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Shreya 💗</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Falling Hearts -->
+  <div class="hearts"></div>
+
+  <!-- Music Button -->
+  <div class="music-box">
+    <button id="musicBtn" class="heart-music-btn" title="Tap for music 💗">💗</button>
+  </div>
+  <audio id="bgMusic" src="assets/song.mp3" loop></audio>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <h1 class="title">💌 A Letter For Shreya 💖</h1>
+    <p class="subtitle">A cute little surprise from Amit 🧸</p>
+
+    <!-- Envelope -->
+    <div class="envelope-wrapper" onclick="openLetter()">
+      <div class="envelope">
+        <div class="envelope-top"></div>
+        <div class="envelope-body"></div>
+        <div class="heart-seal">💗</div>
+      </div>
+
+      <!-- Letter -->
+      <div class="letter" id="letter">
+        <h2>My Dear Shreya 💕</h2>
+        <p>
+          Hey Shreya… 💖<br><br>
+
+          I don’t know how to explain it perfectly,
+          but you are the prettiest part of my life. 🌸
+          Your smile feels like peace, your voice feels like home. 🥺💗<br><br>
+
+          Every time I talk to you, my day becomes better.
+          Every time you laugh, my heart forgets all the problems.
+          I may not be perfect, but I promise…
+          I’ll always try to make you feel special. 💌<br><br>
+
+          Shreya, you are not just a person…
+          you are a feeling. 🌙✨
+          And I really love that feeling. 💕<br><br>
+
+          I want you to always stay happy,
+          always stay smiling,
+          and always stay mine (if you allow 😭💖).<br><br>
+
+          Yours forever,<br>
+          <b>Amit 💗</b>
+        </p>
+      </div>
+    </div>
+
+    <!-- Bear Stickers -->
+    <div class="bears">
+      <img src="assets/bear1.jpg" class="bear bear1" alt="bear sticker" />
+      <img src="assets/bear2.jpg" class="bear bear2" alt="bear sticker" />
+      <img src="assets/bear3.jpg" class="bear bear3" alt="bear sticker" />
+    </div>
+
+    <p class="taptext">✨ Tap the envelope to open the letter ✨</p>
+    <p class="smallnote">🎶 Tap the floating heart for music</p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
